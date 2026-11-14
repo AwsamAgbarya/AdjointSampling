@@ -1,0 +1,150 @@
+{
+  "dw4": {
+    "HMC val vs HMC test (noise floor)": {
+      "energy_w2": [
+        0.061634911216210675,
+        0.006745688968357802
+      ],
+      "geom_w2": [
+        0.24238409709855288,
+        0.015880003556556405
+      ],
+      "basins": {
+        "kite": 0.473,
+        "triangle+tail": 0.419,
+        "rectangle": 0.059,
+        "rhombus": 0.041,
+        "centred triangle": 0.008,
+        "other": 0.0
+      }
+    },
+    "MH test vs HMC test": {
+      "energy_w2": [
+        0.058025971222079885,
+        0.019040018404422283
+      ],
+      "geom_w2": [
+        0.3255628614579823,
+        0.03999547983468454
+      ]
+    },
+    "iDEM test vs HMC test": {
+      "energy_w2": [
+        0.11511035652940775,
+        0.012568906314982635
+      ],
+      "geom_w2": [
+        0.4976897827447632,
+        0.015006453808415478
+      ],
+      "basins": {
+        "kite": 0.413,
+        "triangle+tail": 0.4785,
+        "rectangle": 0.052,
+        "rhombus": 0.0485,
+        "centred triangle": 0.008,
+        "other": 0.0
+      }
+    },
+    "Adjoint Sampling prototype (EGNN)": {
+      "energy_w2": [
+        1.254011844990843,
+        0.02172924995018551
+      ],
+      "geom_w2": [
+        0.7172519963392473,
+        0.040922367840083435
+      ],
+      "energy_evals": 256000,
+      "basins": {
+        "kite": 0.331,
+        "triangle+tail": 0.4065,
+        "rectangle": 0.129,
+        "rhombus": 0.106,
+        "centred triangle": 0.0275,
+        "other": 0.0
+      }
+    },
+    "Adjoint Sampling prototype (MLP)": {
+      "energy_w2": [
+        3.3170871463889924,
+        0.022444932432664044
+      ],
+      "geom_w2": [
+        1.0091806181381824,
+        0.006110549686906146
+      ],
+      "energy_evals": 256000,
+      "basins": {
+        "kite": 0.1775,
+        "triangle+tail": 0.491,
+        "rectangle": 0.13,
+        "rhombus": 0.1575,
+        "centred triangle": 0.044,
+        "other": 0.0
+      }
+    },
+    "MH, same energy budget (1024 chains)": {
+      "energy_w2": [
+        0.33775998215659087,
+        0.023130267096602958
+      ],
+      "geom_w2": [
+        0.8365748851643379,
+        0.006040299509669419
+      ],
+      "energy_evals": 256000,
+      "mh_steps_per_chain": 249,
+      "basins": {
+        "kite": 0.2890625,
+        "triangle+tail": 0.509765625,
+        "rectangle": 0.125,
+        "rhombus": 0.07421875,
+        "centred triangle": 0.001953125,
+        "other": 0.0
+      }
+    },
+    "reference basins (HMC test)": {
+      "basins": {
+        "kite": 0.4935,
+        "triangle+tail": 0.3985,
+        "rectangle": 0.058,
+        "rhombus": 0.0435,
+        "centred triangle": 0.0065,
+        "other": 0.0
+      }
+    }
+  },
+  "lj13": {
+    "HMC val vs HMC test (noise floor)": {
+      "energy_w2": [
+        0.16507999384069402,
+        0.024567760773104314
+      ],
+      "geom_w2": [
+        1.6424846712340535,
+        0.007196549574135063
+      ]
+    },
+    "MH test vs HMC test": {
+      "energy_w2": [
+        0.25169415982554794,
+        0.01643890900839354
+      ],
+      "geom_w2": [
+        1.6478196143532138,
+        0.00396947704713056
+      ]
+    },
+    "iDEM test vs HMC test": {
+      "energy_w2": [
+        0.2755843463024635,
+        0.02423586004584087
+      ],
+      "geom_w2": [
+        1.6399159208662908,
+        0.006059323651143177
+      ]
+    }
+  }
+}

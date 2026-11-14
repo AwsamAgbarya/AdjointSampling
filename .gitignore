@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- project specific ---
+# generated data, MCMC reference samples and training runs (re-create with scripts/)
+data/
+runs/
+# the paper itself (copyrighted, 9 MB)
+/Adjoint Sampling - Highly Scalable Diffusion.pdf
+# LaTeX build artefacts (figures in report/figures/ ARE tracked)
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/.original_Main_report.tex.bak
