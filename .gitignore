@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Extras
+test_split_DW4.npy
+test_split_LJ13-1000.npy
+ref/*
+runs/
+Figures/
